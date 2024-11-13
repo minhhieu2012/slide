@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>
+            if ('scrollRestoration' in history) {
+                history.scrollRestoration = 'manual';
+            }
+        </script>
+
+        <link rel="icon" href="favicon.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Trình bày ý kiến về vấn đề đời sống (được gợi ra từ một nhân vật văn học)</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <noscript>Javascript chưa được kích hoạt trên trình duyệt wed của bạn, bật Javascript để có trả nghiệm tốt nhất!</noscript>
+
+        <button id = "u">↑</button>
+        <button id = "d">↓</button>
+
+        <div id = "requestFullScreen">
+            <div id="blackScreen"></div>
+            <div id="rect2"></div>
+            <p id="request">Vui lòng bật chế độ toàn màn hình để có trải nghiệm tốt nhất!</p>
+            <button id="on" onclick="fullscreen()">Bật</button>
+            <button id="ignore" onclick="ext()">bỏ qua</button>
+        </div>
+
+
+        <!-- Page 1:  -->
+        <img src="leaf.png" height="150px" id = "leafimg">
+
+        <div class = "introduce">
+            <p><strong>Tiết Nói và Nghe:</strong></p>
+            <p>Trình bày ý kiến về vấn đề đời sống (được gợi ra từ một nhân vật văn học)</p>
+        </div>
+        <div id = "rect1"></div>
+        <!-- End of Pg.1  -->
+        <!-- Page 2:  -->
+        <div id="pg2">
+            <img src="BCCV.png" alt="Văn bản bầy chim chìa vôi" id = "bccvimg">
+        </div>
+        <!-- End of Pg.2  -->
+        <!-- Page 3:  -->
+        <div id="pg3">
+            <img src="baove.png" id = "bv_img">
+            <P>Bảo vệ các loài vật hoang dã quý hiếm <br> đang đối mặt với nguy cơ tuyệt chủng.</P>
+        </div>
+        <!-- End of Pg.3  -->
+        <!-- Page 4:  -->
+        <div id="pg4">
+            <img src="hesinhthaibiphahuy.png" height="500" id="p4img1">
+            <p id="hauqua">Mất cân bằng hệ sinh thái</p>
+        </div>
+        <!-- End of Pg.4  -->
+        <!-- Page 5:  -->
+        <div id="pg5">
+            <img src="steller.png" id = "stellerimg" height="500">
+            <p id = "steller">Bò biển Steller</p>
+            <img src="hodongduong.png" id = "hodongduongimg">
+            <p id = "hodongduong">Hổ Đông Dương</p>
+        </div>
+        <!-- End of Pg.5  -->
+        <!-- Page 6:  -->
+        <div id="pg6">
+            <img src="giaiphap.png" height="550">
+            <div></div>
+            <p>Biện pháp</p>
+        </div>
+        <!-- End of Pg.6  -->
+        <!-- End Page : -->
+        <div id="end">
+            <img src="end.png" height="300">
+            <p>The end!<br>Thanks for listening.</p>
+            <div id="rect3"></div>
+        </div>
+        <script src = "index.js"></script>
+    </body>
+</html>
